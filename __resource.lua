@@ -27,8 +27,9 @@ client_scripts {
 	'@es_extended/locale.lua',
 	'config.lua',
 	'locales/de.lua',
-	'client/esx_joblisting_cl.lua',
-	'locales/fr.lua'
+	'locales/fr.lua',
+	'client/esx_joblisting_cl.lua'
+	
 }
 
 dependency 'es_extended'
