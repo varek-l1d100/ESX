@@ -1,11 +1,11 @@
-# GERMAN EDITION
+Voici le script qui permet d'avoir une tablette au pôle-emploi.
+Pour selectionner un job withlist, vous n'avez qu'a sur la tablette postulez au pole-emploi. 
+Qui seras transmis immédiatement sur votre discord. 
 
-## INSTRUCTION
-Application to the employment office at a known location. Callback number and SteamID64 added; application will be implemented and posted directly in Discord via Weebhook-Link.
+config.lua:
+Modifier vos webhook
 
-## PLANNING
-Implement whitelisting request.
-
+Cette resource n'est pas de moi, je l'ai simplement traduite en français
 ## esx_joblisting2
 Based on johanwulf/esx_joblisting2
 thx Dude!
