@@ -1,0 +1,118 @@
+<style>
+
+	.app {
+		display: none;
+		background-image: url('img/tablet.png');
+		background-size: 100%;
+
+		position:absolute;
+		left:0; right:0;
+		top:0; bottom:0;
+		margin: auto;
+	
+		height: 843px;
+		width: 566px;
+		overflow: hidden;
+	
+	}
+	
+	#screen {
+	
+		position:absolute;
+		left:0; right:0;
+		top:11; bottom:0;
+		margin: auto;
+	
+		height: 685px;
+		width: 425px;
+		overflow:auto;
+	}
+	
+	#banner {
+		background-image: url('img/header.png');
+		background-color: red;
+		height: 132px;
+	}
+	
+	body {
+		
+		height: 100%;
+	}
+	
+	textarea {
+		
+		width: 100%;
+		
+	}
+	
+	.editor {
+		
+		width: 100%;
+		
+	}
+	
+	
+	</style>
+	
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script src="scripts.js" type="text/javascript"></script>
+		<script src="debounce.min.js" type="text/javascript"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+	</head>
+	
+	<body>
+		<div class = "app">
+		
+				
+				<div class = "w3-w" id = "screen">
+				
+					<div class = "w3-container" id = "banner">
+					</div>
+					
+					<div class = "editor w3-container w3-white">
+
+						<br>
+						<div class "radiolife w3-white">
+							<b>Dans quoi vous souhaitez postuler?</b><br>
+							<br>
+							<input id = "police" type="radio" name="type" value="police" checked> Police <br>
+							<input id = "ambulance" type="radio" name="type" value="ambulance" checked> Ambulance <br>
+							<input id = "mechanic" type="radio" name="type" value="mechanic" checked> Mecano <br>
+							<input id = "taxi" type="radio" name="type" value="taxi" checked> Taxi <br>
+							<input id = "cardealer" type="radio" name="type" value="cardealer" checked> Concessionnaire <br>						
+							<input id = "banker" type="radio" name="type" value="banker" checked> Banquier <br>						
+							<input id = "realestateagent" type="radio" name="type" value="realestateagent" checked> Agent immobilier <br>
+							<br>
+						</div>
+						
+						<b>numéro </b>
+						<textarea class = "phone w3-white" rows="1" placeholder="555-5555"></textarea>
+						<br>
+						<br>
+						
+						<b>Steamprofil</b>
+						<textarea class = "licenses w3-white" rows="1" placeholder="Veuillez insérer votre lien ici."></textarea>
+						<br>
+						<br>
+						
+						<b>Experience</b>
+						<textarea class = "exp w3-white" rows="5" placeholder="Décrivez-vous brièvement (âge réel, loisirs, origine) ainsi que votre personnage . Pourquoi avez-vous exactement postuler pour ce travail?"></textarea>
+						<br>
+						<br>
+
+						<br>
+						<br>
+
+						<b>Votre adresse IP et votre nom de connexion sont automatiquement enregistrés pour confirmer votre identité.</b><br>
+						<br>
+						
+						<button class="w3-button w3-green w3-left btnSend">APPLIQUER</button>
+						<button class="w3-button w3-red w3-left btnClose">ANNULER</button>
+						
+					</div>
+					
+					
+				</div></div>	
+	</body>
